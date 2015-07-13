@@ -45,7 +45,7 @@
             var returnStatement = F.ReturnStatement(
                 F.LiteralExpression(
                     K.StringLiteralExpression,
-                    F.Literal(F.TriviaList(), @"""Hello World!""", @"""Hello World!""", F.TriviaList())));
+                    F.Literal(@"""Hello World!""")));
 
             // Get the body block
             var bodyBlock = methodSyntax.Body;
